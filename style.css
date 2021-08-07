@@ -1,0 +1,25 @@
+:root {
+    --x : 300px;
+    --y: 600px;
+}
+
+
+@keyframes translating {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(var(--x), var(--y)); 
+            }
+   
+  }
+
+
+#svgArea {
+    position:relative;
+    width: 800px;
+    height: 800px;
+    
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+}
+
